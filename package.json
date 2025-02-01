@@ -6,7 +6,7 @@
     "build": "npm install && yt-dlp --update",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm install && node index.js",
-    "postinstall": "apt-get update && apt-get install -y ffmpeg && pip install yt-dlp && npm install yt-dlp-exec"
+    "postinstall": " pip install yt-dlp && npm install yt-dlp-exec"
   },
   "keywords": [],
   "author": "",
