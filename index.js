@@ -1,5 +1,5 @@
 const express = require("express");
-const ytdlp =require("yt-dlp-exec").path;
+const ytdlp ="yt-dlp";
 const cors = require("cors");
 const axios = require("axios");
 const fs = require("fs");
